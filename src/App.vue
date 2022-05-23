@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="I will be the fucking master of Vue.js" />
+  <HelloWorld msg="I will be the fucking Master of Vue.js" />
 </template>
 
 <script>
