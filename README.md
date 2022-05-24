@@ -1,4 +1,4 @@
-# job-search
+# Application of Job Search building with Vue.js
 
 ## Project setup
 ```
