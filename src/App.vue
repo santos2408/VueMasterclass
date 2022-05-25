@@ -2,11 +2,13 @@
   <div>HEADER</div>
   <h1>Hello, Vue</h1>
 
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 </template>
 
 <script>
