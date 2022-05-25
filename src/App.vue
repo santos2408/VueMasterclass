@@ -1,4 +1,5 @@
 <template>
+  <div>HEADER</div>
   <h1>Hello, Vue</h1>
 </template>
 
@@ -7,4 +8,3 @@ export default {
   name: "App",
 };
 </script>
-aaa
