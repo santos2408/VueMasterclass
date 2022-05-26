@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full text-sm">Main Nav</header>
+  <header class="w-full text-sm">Hello, World!</header>
 </template>
 
 <script>

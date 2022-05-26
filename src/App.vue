@@ -1,12 +1,16 @@
 <template>
-  <h1 class="">Hello, Vue</h1>
+  <MainNav></MainNav>
 </template>
 
 <script>
+import MainNav from "@/components/MainNav.vue";
+
 export default {
   name: "App",
+  components: {
+    MainNav: MainNav,
+  },
 };
 </script>
 
-<!-- TODO: criar uma branch para cada componente desenvolvido -->
-<!-- TODO: desenvolver consultando a docs do tailwind e o resposito sobre padrões de commit do iuri - codelandia -->
+<!-- TODO: ASSISTIR A AULA 42 NOVAMENTE E FAZER O RESUMO CONSULTANDO A DOCS DO VUE -->

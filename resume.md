@@ -1,3 +1,5 @@
+## Rendering Data to View
+
 1 - Ao criarmos um componente, devemos nomeá-lo de forma consistente, nesse caso
 utilizando a chamada "pascal case" que consiste em colocar letra maiúscula na
 primeira letra de cada palavra do componente, similar ao "capitalize" do CSS. - Ex: MainNav.vue. Um componente é composto por três tags: template, script e style
