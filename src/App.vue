@@ -13,4 +13,4 @@ export default {
 };
 </script>
 
-<!-- TODO: ASSISTIR A AULA 42 NOVAMENTE E FAZER O RESUMO CONSULTANDO A DOCS DO VUE -->
+<!-- TODO: -->
