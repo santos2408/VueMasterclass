@@ -3,7 +3,6 @@
     <div class="fixed top-0 left-0 w-full h-16 bg-white">
       <div class="flex flex-nowrap h-full px-8 mx-auto border-b border-solid border-brand-gray-1 items-center">
         <a href="#" class="flex items-center h-full text-xl">{{ company }}</a>
-        <h2 class="flex items-center ml-6">{{ author.firstName }} {{ author.lastName }}</h2>
       </div>
     </div>
   </header>
@@ -15,10 +14,6 @@ export default {
   data() {
     return {
       company: "Bobo Careers",
-      author: {
-        firstName: "Roger",
-        lastName: "Santos",
-      },
     };
   },
 };
