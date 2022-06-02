@@ -19,5 +19,17 @@ para isso basta colocar a expressão entre cholchetes.
 
 ---
 
-v-bind: une um ou mais atributos dinamicamente, usa-se ':' como shorthand.
-Pode-se unir com atributos class, style, src, href, entre outros.
+v-bind: nos permite unir um valor dinâmico a um ou mais atributos, usa-se ':'
+como shorthand. Pode-se unir com atributos class, style, src, href, entre outros.
+Portanto os valores passados dentro do v-bind serão dinâmicos.
+
+v-for: renderiza um elemento ou template multiplas vezes baseado nos dados do
+script. Para utilizar essa diretiva precisamos passar um valor que será iterado
+por ela. Deve-se passar uma sintaxe especial, que é (item in expressão) para que
+os dados sejam iterado, podemos iterar sobre arrays, objetos e outros dados.
+
+- atributo 'key': na maioria das vezes o v-for precisará ser seguido de um
+  atributo 'key', esse atributo é usado para ajudar o Vue a 'rastrear' os v-nodes
+  no DOM, fazendo com que sejam reorganizados ou removidos caso tenha alguma
+  alteração. Para filhos do mesmo pai, o 'key' deve receber um identificador
+  único como valor, caso contrário retornará um erro.
