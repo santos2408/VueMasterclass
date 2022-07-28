@@ -23,8 +23,8 @@ e digamos que esse objeto conterá as configurações do componente.
 
 - Em seguida declaramos a propriedade 'components', que registra os componentes
   a serem usados pela instância do componente que importarmos. Caso o nome da
-  propriedade seja igual ao nome do componentes podemos utilizar a sintaxe o s
-  horthand property name.
+  propriedade seja igual ao nome do componentes podemos utilizar a sintaxe do
+  shorthand property name.
 
 4 - Quando inserimos o nosso componente dentro da tag 'template', devemos
 inserir o nome do componente como se fosse uma tag HTML normal, utilizando de
@@ -45,16 +45,22 @@ componente e que o Vue aceita também, são elas:
 5 - Dentro do nosso componente, na parte onde se encontra nosso script, além
 de propriedade 'name' que vimos anteriormente, podemos adicionar também um
 método "data" que permitirá nos "conectarmos" com o HTML de forma dinâmica.
-Essa é uma parte da "reatividade" do Vue, com o método data podemos realizar
-mudanças no nosso DOM dinamicamente. Ele retorna um estado inicial de reatividade
-do nosso componente.
+Esse é o método que aplica a "reatividade" do Vue, com o método data podemos
+realizar mudanças no nosso DOM dinamicamente. Ele retorna um estado inicial de
+reatividade do nosso componente.
 
 O método "data" deve retornar um objeto com propriedades disponíveis para uso
 dentro do HTML. Dentro desse objeto serão passadas as propriedades que serão
 "adicionados/injetadas/interpoladas" no nosso HTML. Esses dados podem ser
-strings, números, arrays, objetos, requisições de api,entre outros.
+strings, números, arrays, objetos, requisições de api, entre outros.
 
-Para inserirmos a nossa informação dinâmica dentro do documento HTML, devemos
-adicionar uma interpolação chamada também de "mustache". {{ exemplo }}.
-Essa interpolação nos permite unir o DOM renderizado com as informações da
-instância de data do componente criando assim um dado reativo.
+Cada propriedade inserida dentro do objeto retornado pelo método data() ficará
+disponível para ser usada dinamicamente dentro do HTML. Quando um dado que não
+foi declarado como reativo é chamado no HTML, o JS por padrão retorna 'undefined',
+mas o Vue não retornará nada, ficará em branco.
+
+Para inserirmos a nossa informação dinâmica que se encontra dentro do método
+data() e inserirmos dentro do documento HTML, devemos adicionar uma interpolação
+chamada também de "mustache". {{ exemplo }}. Essa interpolação nos permite unir
+o DOM renderizado com as informações da instância de data do componente, criando
+assim um dado reativo.

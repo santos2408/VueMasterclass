@@ -1,0 +1,10 @@
+## Intro to CSS in Vue
+
+1 - Por padrão os componentes do Vue contém a sua tag 'style' global, ou seja,
+estilos inseridos dentro do componente 'escaparão' para por todo os componentes
+da aplicação. Para envitarmos isso, inserimos a tag 'scoped' como 'atributo' da
+tag style, ela restringir os estilos do componente apenas para aquele componente
+específico.
+
+2 - Podemos misturas estilos globais e locais, basta inserirmos outra tag
+style, uma sem o 'atributo' scoped e outro com ele.

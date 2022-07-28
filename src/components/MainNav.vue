@@ -6,11 +6,7 @@
 
         <nav class="h-full ml-12">
           <ul class="flex h-full p-0 m-0 list-none">
-            <li class="h-full">
-              <a href="#" class="flex items-center h-full py-2.5">Teams</a>
-            </li>
-
-            <li v-for="menuItem in menuItems" :key="menuItem" class="h-full ml-9">
+            <li v-for="menuItem in menuItems" :key="menuItem" class="h-full first:ml-0 ml-9">
               <a href="#" class="flex items-center h-full py-2.5">{{ menuItem }}</a>
             </li>
           </ul>
@@ -25,9 +21,9 @@ export default {
   name: "MainNav",
   data() {
     return {
-      company: "Bobo Careers",
+      company: "Company",
       url: "http://careers.google.com",
-      menuItems: ["Locations", "Life at Bobo Corp", "How we hire", "Students", "Jobs"],
+      menuItems: ["Teams", "Locations", "Life at Bobo Corp", "How we hire", "Students", "Jobs"],
     };
   },
 };
