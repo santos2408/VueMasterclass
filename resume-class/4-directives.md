@@ -79,9 +79,3 @@ base no que o usuário coloca.
 com isso podemos capturar o valor que está sendo digitado pelo usuario e armazenar
 num array, objeto, variável ou banco de dados. Em alguns blocos como radio e checkbox
 é necessário inserir o 'value' do formulário.
-
-// curso intro vue: https://escola.laravue.com.br/course/vuejs-3-intro/episodes/dbc5073a-76d6-48cd-8471-4cdbc65e0774
-
-// parei em eventos: https://vuejs.org/api/built-in-directives.html#v-bind
-// parei na criação de uma aplicação: https://vuejs.org/guide/essentials/application.html
-// parei em data: https://www.origamid.com/curso/vue-js-completo/
